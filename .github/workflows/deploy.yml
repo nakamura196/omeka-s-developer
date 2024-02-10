@@ -1,4 +1,4 @@
-name: Deploy Sphinx Documentation to GitHub Pages
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt  # if you have any dependencies
 
-      - name: Build Sphinx Documentation
+      - name: Build MkDocs Documentation
         run: |
           mkdocs build
 
