@@ -8,6 +8,7 @@ theme:
     # include_homepage_in_sidebar: false
     # navigation_depth: 3
 repo_url: 'http://github.com/omeka/omeka-s-developer'
+site_url: 'https://nakamura196.github.io/omeka-s-developer/'
 extra_css:
     # - css/extra.css
     - css/iconfonts.css
