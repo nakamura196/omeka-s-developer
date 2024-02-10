@@ -1,3 +1,5 @@
 site/
 docs/doc_structure.md
-
+.env
+.DS_Store
+.venv

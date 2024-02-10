@@ -1,12 +1,36 @@
 site_name: Omeka S Developer Documentation
 theme:
-    name: 'readthedocs'
-    include_homepage_in_sidebar: false
-    navigation_depth: 3
+    name: material
+    features:
+        - search.suggest
+        - search.highlight
+    # name: 'readthedocs'
+    # include_homepage_in_sidebar: false
+    # navigation_depth: 3
 repo_url: 'http://github.com/omeka/omeka-s-developer'
 extra_css:
-    - css/extra.css
+    # - css/extra.css
     - css/iconfonts.css
 markdown_extensions:
     - toc:
         permalink: 
+plugins:
+    - i18n:
+        docs_structure: suffix
+        languages:
+            - locale: en
+              default: true
+              name: English
+              build: true
+            - locale: ja
+              name: Japanese
+              build: true
+    - search
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
