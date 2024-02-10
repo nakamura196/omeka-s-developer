@@ -30,8 +30,8 @@ plugins:
 extra:
   alternate:
     - name: English
-      link: /
+      link: /omeka-s-developer/
       lang: en
     - name: 日本語
-      link: /ja/
+      link: /omeka-s-developer/ja/
       lang: ja
